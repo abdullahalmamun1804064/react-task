@@ -8,12 +8,11 @@ const ModelA = () => {
   const [contacts, setContacts] = useState([]);
   const [search, setSearch] = useState("");
   const [page, setPage] = useState(1);
-  const [pageSize, setPageSize] = useState(20); 
+  const [pageSize, setPageSize] = useState(20);
   const [totalCount, setTotalCount] = useState(0);
   const [onlyEven, setOnlyEven] = useState(false);
   const [openModel, setOpenModel] = useState(false);
   const [data, setData] = useState({});
-
 
   const fetchContacts = async () => {
     try {
@@ -45,7 +44,7 @@ const ModelA = () => {
 
   const handleSearchChange = (event) => {
     setSearch(event.target.value);
-    setPage(1); 
+    setPage(1);
   };
 
   const handlePageChange = (newPage) => {
