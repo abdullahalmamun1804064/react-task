@@ -3,6 +3,10 @@ import Problem1 from "./components/Problem-1.jsx";
 import Menu from "./components/Menu.jsx";
 import Problem2 from "./components/Problem-2.jsx";
 import Index from "./components/Index.jsx";
+import AllContacts from "./components/contracts/AllContacts.jsx";
+import USContacts from "./components/contracts/USContacts.jsx";
+import ModelA from "./components/model/ModelA.jsx";
+import ModelB from "./components/model/ModelB.jsx";
 
 function App() {
   return (
@@ -12,6 +16,8 @@ function App() {
         <Route path="/" element={<Menu />}>
           <Route path="problem-1" element={<Problem1 />} />
           <Route path="problem-2" element={<Problem2 />} />
+          <Route path="problem-2/all-contacts" element={<AllContacts />} />
+          <Route path="problem-2/us-contacts" element={<USContacts />} />
         </Route>
       </Routes>
     </>
