@@ -5,8 +5,7 @@ import Problem2 from "./components/Problem-2.jsx";
 import Index from "./components/Index.jsx";
 import AllContacts from "./components/contracts/AllContacts.jsx";
 import USContacts from "./components/contracts/USContacts.jsx";
-import ModelA from "./components/model/ModelA.jsx";
-import ModelB from "./components/model/ModelB.jsx";
+
 
 function App() {
   return (
